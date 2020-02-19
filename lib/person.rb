@@ -8,3 +8,6 @@ class Person
     @name 
   end
 end
+
+gary = Person.new("Gary")
+puts gary.name
