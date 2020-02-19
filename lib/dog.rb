@@ -19,3 +19,7 @@ lassie = Dog.new("Lassie", "Collie")
 
 puts lassie.name 
 puts lassie.breed 
+
+mutt = Dog.new("Rex")
+
+puts mutt.breed
