@@ -8,4 +8,6 @@ class Dog
 end
 
 lassie = Dog.new("Lassie", "Collie")
-puts
+
+puts lassie.name 
+puts lassie.breed 
