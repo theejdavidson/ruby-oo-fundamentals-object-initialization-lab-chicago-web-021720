@@ -9,6 +9,10 @@ class Dog
     @name
   end
   
+  def breed 
+    @breed 
+  end
+  
 end
 
 lassie = Dog.new("Lassie", "Collie")
