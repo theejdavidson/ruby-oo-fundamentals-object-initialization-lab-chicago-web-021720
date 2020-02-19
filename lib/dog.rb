@@ -5,6 +5,10 @@ class Dog
     @name = name
   end
   
+  def name 
+    @name = name 
+  end
+  
 end
 
 lassie = Dog.new("Lassie", "Collie")
